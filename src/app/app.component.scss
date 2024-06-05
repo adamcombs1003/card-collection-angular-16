@@ -1,0 +1,41 @@
+mat-list-item {
+    font-size: 18px;
+}
+
+.app-container {
+    height: 100%;
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    display: block;
+}
+
+.mat-drawer {
+    min-width: 150px;
+}
+
+#links {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 100%;
+}
+
+#links img {
+    margin-left: 20px;
+}
+
+#app-title {
+    font-size: 16px;
+}
+
+#main-toolbar {
+    height: 50px;
+    padding: 0px;
+}
+
+#hamburger-icon {
+    margin-left: 0px;
+}
+
+#hamburger-menu-list-item {
+    font-size: 12px;
+}
