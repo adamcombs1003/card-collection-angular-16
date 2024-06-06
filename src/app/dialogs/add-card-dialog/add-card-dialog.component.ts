@@ -8,6 +8,7 @@ import { MatInputModule } from "@angular/material/input";
 import { FormControl, FormGroup, FormGroupDirective, FormsModule, NgForm, ReactiveFormsModule, Validators } from "@angular/forms";
 import { ErrorStateMatcher } from "@angular/material/core";
 import { Card } from "../../models/card";
+import { CommonModule } from "@angular/common";
 
 /** Error when invalid control is dirty, touched, or submitted. */
 export class FormErrorStateMatcher implements ErrorStateMatcher {
@@ -28,7 +29,8 @@ export class FormErrorStateMatcher implements ErrorStateMatcher {
     MatFormFieldModule,
     MatInputModule,
     MatSelectModule,
-    FormsModule
+    FormsModule,
+    CommonModule
   ]
 })
 export class AddCardDialog {

@@ -30,7 +30,7 @@
     <mat-form-field>
       <mat-label>Manufacturer</mat-label>
       <mat-select required [(ngModel)]="manufacturer" name="manufacturer">
-          <mat-option *ngFor="let manufacturer of manufacturers" [value]="manufacturer">{{ manufacturer }}</mat-option>
+          <mat-option *ngFor="let mfr of manufacturers" [value]="mfr">{{ mfr }}</mat-option>
       </mat-select>
     </mat-form-field>
     <mat-form-field>
