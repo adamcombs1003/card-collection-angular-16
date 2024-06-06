@@ -1,6 +1,6 @@
 <div #appcontainer class="dark-theme app-container">
-  <mat-drawer-container>
-    <mat-drawer #drawer mode="push" [opened]="false">
+  <mat-drawer-container [hasBackdrop]="false">
+    <mat-drawer #drawer mode="side" [opened]="true">
       <mat-nav-list role="list">
         <a mat-list-item 
           id="hamburger-menu-list-item"
@@ -11,7 +11,7 @@
       </mat-nav-list>
     </mat-drawer>
     <mat-drawer-content>
-      <mat-toolbar id="main-toolbar" color="accent">
+      <mat-toolbar id="main-toolbar">
         <button mat-icon-button id="hamburger-icon" (click)="drawer.toggle()" aria-label="Button with a menu icon">
           <mat-icon>menu</mat-icon>
         </button>
