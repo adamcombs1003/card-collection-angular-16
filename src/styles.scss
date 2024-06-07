@@ -29,12 +29,43 @@ $red-palette: (
     A100: #FF8A80,
     A200: #FF5252,
     A400: #FF1744,
-    A700: #D50000,
-        contrast: (
-        50: #000000,
+    A700: #D50000, 
+    contrast: (
         100: #000000,
         200: #000000,
-        300: #ffffff,
+        300: #000000,
+        400: #000000,
+        500: #000000,
+        600: #000000,
+        700: #ffffff,
+        800: #ffffff,
+        900: #ffffff,
+        A100: #000000,
+        A200: #000000,
+        A400: #000000,
+        A700: #ffffff
+    )
+);
+
+$purple-palette: (
+    50: #EDE7F6,
+    100: #D1C4E9,
+    200: #B39DDB,
+    300: #9575CD,
+    400: #7E57C2,
+    500: #673AB7,
+    600: #5E35B1,
+    700: #512DA8,
+    800: #4527A0,
+    900: #311B92,
+    A100: #B388FF,
+    A200: #7C4DFF,
+    A400: #651FFF,
+    A700: #6200EA, 
+    contrast: (
+        100: #000000,
+        200: #000000,
+        300: #000000,
         400: #ffffff,
         500: #ffffff,
         600: #ffffff,
@@ -42,9 +73,9 @@ $red-palette: (
         800: #ffffff,
         900: #ffffff,
         A100: #000000,
-        A200: #FFFFFF,
-        A400: #FFFFFF,
-        A700: #FFFFFF,
+        A200: #ffffff,
+        A400: #ffffff,
+        A700: #ffffff
     )
 );
 
@@ -62,49 +93,76 @@ $blue-palette: (
     A100: #82B1FF,
     A200: #448AFF,
     A400: #2979FF,
-    A700: #2962FF,
+    A700: #2962FF, 
     contrast: (
-        50: #000000,
         100: #000000,
         200: #000000,
-        300: #ffffff,
-        400: #ffffff,
-        500: #ffffff,
-        600: #ffffff,
+        300: #000000,
+        400: #000000,
+        500: #000000,
+        600: #000000,
         700: #ffffff,
         800: #ffffff,
         900: #ffffff,
         A100: #000000,
-        A200: #FFFFFF,
-        A400: #FFFFFF,
-        A700: #FFFFFF,
+        A200: #000000,
+        A400: #000000,
+        A700: #ffffff
     )
 );
 
+$color-one: mat.define-palette($blue-palette, 900);
+$color-two: mat.define-palette($blue-palette, 300);
+$color-warning: mat.define-palette($red-palette, 700);
 
-$dash-dark-blue: mat.define-palette($blue-palette, 900);
-$dash-light-blue: mat.define-palette($blue-palette, 300);
-$dash-warning: mat.define-palette($red-palette, 700);
-
-$dash-dark-theme: mat.define-dark-theme((
+$dark-theme: mat.define-dark-theme((
     color: (
-        primary: $dash-dark-blue,
-        accent: $dash-light-blue,
-        warn: $dash-warning
+        primary: $color-one,
+        accent: $color-two,
+        warn: $color-warning
     )
 ));
 
-$dash-light-theme: mat.define-light-theme((
+$light-theme: mat.define-light-theme((
     color: (
-        primary: $dash-light-blue,
-        accent: $dash-dark-blue,
-        warn: $dash-warning
+        primary: $color-two,
+        accent: $color-one,
+        warn: $color-warning
     )
 ));
 
-@include mat.all-component-themes($dash-dark-theme);
+@include mat.all-component-themes($dark-theme);
 
 .light-theme {
-    @include mat.all-component-colors($dash-light-theme);
+    @include mat.all-component-colors($light-theme);
 }
+
+mat-list-item {
+    font-size: 18px;
+}
+
+.app-container {
+    height: 100%;
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    display: block;
+}
+
+.dark-theme .mat-drawer {
+    background: rgb(33,33,33);
+}
+
+.light-theme .mat-drawer {
+    background-color: rgb(245, 245, 245);
+}
+
+.light-theme .mat-toolbar {
+    border-bottom: 2px solid mat.get-color-from-palette($color-two);
+}
+
+.dark-theme .mat-toolbar {
+    border-bottom: 2px solid mat.get-color-from-palette($color-one);
+}
+
+
 
