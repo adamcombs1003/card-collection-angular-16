@@ -35,13 +35,15 @@ export class FormErrorStateMatcher implements ErrorStateMatcher {
 })
 export class AddCardDialog {
   addCardRequest: Card = new Card();
-  firstName = "";
-  lastName = "";
-  year = "";
-  sport = "";
-  manufacturer = "";
-  subSet = "";
-  psaValue = 0;
+  firstName: any;
+  lastName: any;
+  year: any;
+  sport: any;
+  manufacturer: any;
+  subSet: any;
+  psaValue: any;
+  cardNumber: any;
+
   manufacturers = [
     "Topps",
     "Donruss",
@@ -76,6 +78,7 @@ export class AddCardDialog {
       sport: this.sport,
       manufacturer: this.manufacturer,
       subSet: this.subSet,
+      cardNumber: this.cardNumber,
       psaValue: this.psaValue
     }
     console.log(this.addCardRequest);

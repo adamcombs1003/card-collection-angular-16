@@ -47,6 +47,7 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
   year = "";
   sport = "";
   manufacturer = "";
+  cardNumber = "";
   subSet = "";
   psaValue = 0;
   displayedColumns: string[] = [
@@ -55,6 +56,7 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     'year',
     'manufacturer',
     'subSet',
+    'cardNumber',
     'psaValue',
     'remove'
   ];
@@ -128,6 +130,7 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
       sport: this.sport,
       manufacturer: this.manufacturer,
       subSet: this.subSet,
+      cardNumber: this.cardNumber,
       psaValue: this.psaValue
     }
 

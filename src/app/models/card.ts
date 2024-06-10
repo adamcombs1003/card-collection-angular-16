@@ -6,5 +6,6 @@ export class Card {
     sport: string | undefined;
     manufacturer: string | undefined;
     subSet: string | undefined;
+    cardNumber: string | undefined;
     psaValue: number | undefined;
 }
