@@ -5,6 +5,7 @@ import { routes } from './app.routes';
 import { provideRouter } from '@angular/router';
 import { provideClientHydration } from '@angular/platform-browser';
 import { provideAnimations } from '@angular/platform-browser/animations';
+import { MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
 
 
 export const appConfig: ApplicationConfig = {
@@ -12,6 +13,12 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes),
     provideClientHydration(),
     provideHttpClient(withFetch()),
-    provideAnimations()
+    provideAnimations(),
+    {
+      provide: MAT_FORM_FIELD_DEFAULT_OPTIONS, 
+      useValue: {
+        appearance: 'outline'
+      }
+    }
 ]
 };

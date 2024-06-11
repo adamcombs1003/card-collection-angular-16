@@ -9,6 +9,7 @@ import { FormControl, FormGroup, FormGroupDirective, FormsModule, NgForm, Reacti
 import { ErrorStateMatcher } from "@angular/material/core";
 import { Card } from "../../models/card";
 import { CommonModule } from "@angular/common";
+import { CardsHttpService } from "src/app/cards.service";
 
 /** Error when invalid control is dirty, touched, or submitted. */
 export class FormErrorStateMatcher implements ErrorStateMatcher {
@@ -42,6 +43,7 @@ export class AddCardDialog {
   manufacturer: any;
   subSet: any;
   psaValue: any;
+  quantity = 1;
   cardNumber: any;
 
   manufacturers = [
@@ -65,12 +67,13 @@ export class AddCardDialog {
   matcher = new FormErrorStateMatcher();
 
   constructor(
+    private cardsHttpService: CardsHttpService,
     public dialogRef: MatDialogRef<AddCardDialog>,
     @Inject(MAT_DIALOG_DATA) public data: AddCardDialogData,
   ) { }
 
-  closeDialog() {
-    this.addCardRequest = {
+  addCard() {
+    var addCardRequest = {
       _id: Math.floor(Math.random() * (1000000)).toString(),
       firstName: this.firstName,
       lastName: this.lastName,
@@ -79,10 +82,10 @@ export class AddCardDialog {
       manufacturer: this.manufacturer,
       subSet: this.subSet,
       cardNumber: this.cardNumber,
+      quantity: this.quantity,
       psaValue: this.psaValue
     }
-    console.log(this.addCardRequest);
-
+    this.cardsHttpService.addCard(addCardRequest).subscribe();
     this.dialogRef.close(this.addCardRequest);
   }
 

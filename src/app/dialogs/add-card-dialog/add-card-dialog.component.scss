@@ -1,10 +1,5 @@
 #add-card-dialog-container {
     padding: 10px;
-    display: flex;
-}
-
-form {
-    display: flex;
 }
 
 #add-card-dialog-button {
@@ -19,7 +14,8 @@ mat-form-field {
     display: block;
 }
 
-::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
-    background-color: white;
-    border-radius: 5px;
+#quantity-field {
+    float: right;
+    max-width: 80px;
+    text-align: right;
 }

@@ -42,14 +42,15 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
   choice!: string;
   addCardRequest!: Card;
   updateCardRequest!: Card;
-  firstName = "";
-  lastName = "";
-  year = "";
-  sport = "";
-  manufacturer = "";
-  cardNumber = "";
-  subSet = "";
-  psaValue = 0;
+  firstName: any;
+  lastName: any;
+  year: any;
+  sport: any;
+  manufacturer: any;
+  subSet: any;
+  psaValue: any;
+  quantity: any;
+  cardNumber: any;
   displayedColumns: string[] = [
     'name',
     'sport',
@@ -112,13 +113,6 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
         addCardRequest: new Card()
       }
     });
-
-    dialogRef.afterClosed().subscribe(addCardRequest => {
-      this.cardsHttpService.addCard(addCardRequest).subscribe({
-        complete: () => this.getAllCards(),
-        error: () => this.handleAddCardError()
-      });
-    });
   }
 
   addCard() {
@@ -131,6 +125,7 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
       manufacturer: this.manufacturer,
       subSet: this.subSet,
       cardNumber: this.cardNumber,
+      quantity: this.quantity,
       psaValue: this.psaValue
     }
 

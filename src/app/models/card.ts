@@ -7,5 +7,6 @@ export class Card {
     manufacturer: string | undefined;
     subSet: string | undefined;
     cardNumber: string | undefined;
+    quantity: number | undefined;
     psaValue: number | undefined;
 }
