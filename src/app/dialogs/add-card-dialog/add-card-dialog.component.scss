@@ -1,6 +1,10 @@
 #add-card-dialog-container {
     padding: 10px;
-    display: inline-block;
+    display: flex;
+}
+
+form {
+    display: flex;
 }
 
 #add-card-dialog-button {
@@ -13,4 +17,9 @@
 mat-form-field {
     padding: 5px;
     display: block;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    background-color: white;
+    border-radius: 5px;
 }
