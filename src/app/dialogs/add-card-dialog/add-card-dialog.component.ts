@@ -47,14 +47,15 @@ export class AddCardDialog {
   cardNumber: any;
 
   manufacturers = [
-    "Topps",
     "Donruss",
-    "Leaf",
     "Fleer",
-    "Upper Deck",
+    "Flair",
+    "Leaf",
     "Score",
     "Skybox",
-    "Ultra"
+    "Topps",
+    "Ultra",
+    "Upper Deck"
   ];
 
   addCardForm = new FormGroup({

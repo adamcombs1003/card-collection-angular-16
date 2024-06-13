@@ -14,6 +14,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { FormsModule } from '@angular/forms';
 import { RouterLinkActive } from '@angular/router';
+import { MatSort, MatSortModule, Sort } from '@angular/material/sort';
+import { LiveAnnouncer } from '@angular/cdk/a11y';
 
 @Component({
   selector: 'all-cards',
@@ -28,6 +30,7 @@ import { RouterLinkActive } from '@angular/router';
     MatFormFieldModule,
     MatInputModule,
     MatSelectModule,
+    MatSortModule,
     FormsModule,
     RouterLinkActive
   ],
@@ -58,16 +61,18 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     'manufacturer',
     'subSet',
     'cardNumber',
+    'quantity',
     'psaValue',
     'remove'
   ];
 
-  @ViewChild(MatPaginator)
-  paginator!: MatPaginator;
+  @ViewChild(MatPaginator) paginator!: MatPaginator;
+  @ViewChild(MatSort) sort!: MatSort;
 
   constructor(
     private cardsHttpService: CardsHttpService,
-    private dialog: MatDialog
+    private dialog: MatDialog,
+    private liveAnnouncer: LiveAnnouncer
   ) { }
 
   ngOnInit() {
@@ -82,6 +87,7 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     this.cardsHttpService.getAllCards().subscribe(cardList => {
       this.cards = cardList;
       this.dataSource.data = this.cards;
+      this.dataSource.sort = this.sort;
     });
   }
 
@@ -138,6 +144,14 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
 
   handleAddCardError(): void {
     console.log("Error adding card!");
+  }
+
+  announceSortChange(sortState: Sort){
+    if (sortState.direction) {
+      this.liveAnnouncer.announce('Sorted ${sortState.direction}ending')
+    } else {
+      this.liveAnnouncer.announce('Sorting cleared');
+    }
   }
 
 }
