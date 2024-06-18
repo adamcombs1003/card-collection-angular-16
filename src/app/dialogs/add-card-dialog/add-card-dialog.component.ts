@@ -55,7 +55,8 @@ export class AddCardDialog {
     "Skybox",
     "Topps",
     "Ultra",
-    "Upper Deck"
+    "Upper Deck",
+    "Collector's Choice"
   ];
 
   addCardForm = new FormGroup({
