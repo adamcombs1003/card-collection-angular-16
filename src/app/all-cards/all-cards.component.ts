@@ -140,6 +140,7 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
       error: () => this.handleAddCardError()
     });
 
+    this.getAllCards();
   }
 
   handleAddCardError(): void {
