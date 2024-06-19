@@ -1,5 +1,5 @@
 import { MatDialog, MatDialogConfig, MatDialogModule } from '@angular/material/dialog';
-import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, HostListener, OnInit, ViewChild } from '@angular/core';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
 import { CardsHttpService } from '../cards.service';
@@ -39,6 +39,22 @@ import { LiveAnnouncer } from '@angular/cdk/a11y';
 })
 export class AllCardsComponent implements OnInit, AfterViewInit {
 
+  @ViewChild(MatPaginator) paginator!: MatPaginator;
+  @ViewChild(MatSort) sort!: MatSort;
+  
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any){
+    this.innerWidth = window.innerWidth;
+    console.log(this.innerWidth);
+  }
+
+  constructor(
+    private cardsHttpService: CardsHttpService,
+    private dialog: MatDialog,
+    private liveAnnouncer: LiveAnnouncer
+  ) { }
+
+  public innerWidth: any;
   cards: Card[] = [];
   dataSource = new MatTableDataSource<Card>();
   removeId!: string;
@@ -65,15 +81,6 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     'psaValue',
     'remove'
   ];
-
-  @ViewChild(MatPaginator) paginator!: MatPaginator;
-  @ViewChild(MatSort) sort!: MatSort;
-
-  constructor(
-    private cardsHttpService: CardsHttpService,
-    private dialog: MatDialog,
-    private liveAnnouncer: LiveAnnouncer
-  ) { }
 
   ngOnInit() {
     this.getAllCards();
