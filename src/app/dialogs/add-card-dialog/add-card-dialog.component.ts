@@ -56,7 +56,8 @@ export class AddCardDialog {
     "Topps",
     "Ultra",
     "Upper Deck",
-    "Collector's Choice"
+    "Collector's Choice",
+    "Pacific"
   ];
 
   addCardForm = new FormGroup({
