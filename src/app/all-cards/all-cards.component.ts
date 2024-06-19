@@ -68,7 +68,17 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
   private psaValue: any;
   private quantity: any;
   private cardNumber: any;
-  public displayedColumns: any;
+  public displayedColumns = [
+    'name',
+    'year',
+    'sport',
+    'manufacturer',
+    'subSet',
+    'cardNumber',
+    'quantity',
+    'psaValue',
+    'remove'
+  ];
 
   ngOnInit() {
     this.getAllCards();
@@ -156,7 +166,7 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
   }
 
   setTableColumns(viewWidth: number) {
-    if (viewWidth > 850) {
+    if (viewWidth > 900) {
       this.displayedColumns = [
         'name',
         'year',
@@ -168,7 +178,7 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
         'psaValue',
         'remove'
       ]
-    } else if (viewWidth <= 850 && viewWidth > 750) {
+    } else if (viewWidth <= 900 && viewWidth > 750) {
       this.displayedColumns = [
         'name',
         'year',
