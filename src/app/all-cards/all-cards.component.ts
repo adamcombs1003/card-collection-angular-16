@@ -44,8 +44,7 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
   
   @HostListener('window:resize', ['$event'])
   onResize(event: any){
-    this.innerWidth = window.innerWidth;
-    console.log(this.innerWidth);
+    this.setTableColumns(window.innerWidth);
   }
 
   constructor(
@@ -54,33 +53,22 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     private liveAnnouncer: LiveAnnouncer
   ) { }
 
-  public innerWidth: any;
-  cards: Card[] = [];
-  dataSource = new MatTableDataSource<Card>();
-  removeId!: string;
-  choice!: string;
-  addCardRequest!: Card;
-  updateCardRequest!: Card;
-  firstName: any;
-  lastName: any;
-  year: any;
-  sport: any;
-  manufacturer: any;
-  subSet: any;
-  psaValue: any;
-  quantity: any;
-  cardNumber: any;
-  displayedColumns: string[] = [
-    'name',
-    'sport',
-    'year',
-    'manufacturer',
-    'subSet',
-    'cardNumber',
-    'quantity',
-    'psaValue',
-    'remove'
-  ];
+  private cards: Card[] = [];
+  public dataSource = new MatTableDataSource<Card>();
+  private removeId!: string;
+  private choice!: string;
+  private addCardRequest!: Card;
+  private updateCardRequest!: Card;
+  private firstName: any;
+  private lastName: any;
+  private year: any;
+  private sport: any;
+  private manufacturer: any;
+  private subSet: any;
+  private psaValue: any;
+  private quantity: any;
+  private cardNumber: any;
+  public displayedColumns: any;
 
   ngOnInit() {
     this.getAllCards();
@@ -88,6 +76,7 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {
     this.dataSource.paginator = this.paginator;
+    this.setTableColumns(window.innerWidth);
   }
 
   getAllCards() {
@@ -163,6 +152,48 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
       this.liveAnnouncer.announce('Sorted ${sortState.direction}ending')
     } else {
       this.liveAnnouncer.announce('Sorting cleared');
+    }
+  }
+
+  setTableColumns(viewWidth: number) {
+    if (viewWidth > 850) {
+      this.displayedColumns = [
+        'name',
+        'year',
+        'sport',
+        'manufacturer',
+        'subSet',
+        'cardNumber',
+        'quantity',
+        'psaValue',
+        'remove'
+      ]
+    } else if (viewWidth <= 850 && viewWidth > 750) {
+      this.displayedColumns = [
+        'name',
+        'year',
+        'manufacturer',
+        'subSet',
+        'quantity',
+        'psaValue',
+        'remove'
+      ]
+    } else if (viewWidth <= 750 && viewWidth > 675) {
+      this.displayedColumns = [
+        'name',
+        'year',
+        'manufacturer',
+        'subSet',
+        'quantity',
+        'psaValue'
+      ]
+    } else if (viewWidth <= 675) {
+      this.displayedColumns = [
+        'name',
+        'year',
+        'manufacturer',
+        'psaValue'
+      ]
     }
   }
 
