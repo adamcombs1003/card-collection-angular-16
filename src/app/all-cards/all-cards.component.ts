@@ -119,6 +119,10 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
         addCardRequest: new Card()
       }
     });
+
+    dialogRef.afterClosed().subscribe({
+      complete: () => this.getAllCards()
+    });
   }
 
   addCard() {
