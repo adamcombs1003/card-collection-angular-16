@@ -11,7 +11,6 @@ import { Card } from "../../models/card";
 import { CommonModule } from "@angular/common";
 import { CardsHttpService } from "src/app/cards.service";
 
-/** Error when invalid control is dirty, touched, or submitted. */
 export class FormErrorStateMatcher implements ErrorStateMatcher {
   isErrorState(control: FormControl | null, form: FormGroupDirective | NgForm | null): boolean {
     const isSubmitted = form && form.submitted;
@@ -47,17 +46,18 @@ export class AddCardDialog {
   cardNumber: any;
 
   manufacturers = [
+    "Collector's Choice",
     "Donruss",
     "Fleer",
     "Flair",
+    "Hoops",
     "Leaf",
+    "Pacific",
     "Score",
     "Skybox",
     "Topps",
     "Ultra",
     "Upper Deck",
-    "Collector's Choice",
-    "Pacific"
   ];
 
   addCardForm = new FormGroup({
