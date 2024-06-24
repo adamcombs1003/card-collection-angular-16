@@ -165,6 +165,10 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     }
   }
 
+  rowClick(card: any) {
+    console.log(card);
+  }
+
   setTableColumns(viewWidth: number) {
     if (viewWidth > 900) {
       this.displayedColumns = [

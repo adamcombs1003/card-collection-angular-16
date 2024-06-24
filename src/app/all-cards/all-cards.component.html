@@ -55,12 +55,16 @@
         </td>
       </ng-container>
 
-      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-      <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+      <tr mat-header-row *matHeaderRowDef="displayedColumns">
+      </tr>
+      <tr mat-row 
+        (click)="rowClick(row)"  
+        *matRowDef="let row; columns: displayedColumns">
+      </tr>
     </table>
 
     <button mat-fab id="add-card-button" (click)="showAddCardDialog()" extended>
-        <mat-icon id="add-card-icon">add</mat-icon>
+      <mat-icon id="add-card-icon">add</mat-icon>
     </button>
 
     <mat-paginator [pageSizeOptions]="[10]" aria-label="Select page of cards">
