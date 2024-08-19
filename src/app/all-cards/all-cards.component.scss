@@ -22,11 +22,11 @@
 }
 
 #add-card-button {
-  float: right;
-  margin-right: 25px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  height: 40px;
+  width: 100%;
+  border-radius: 0;
+  display: block;
+  margin: auto;
+  height: 50px;
 }
 
 #add-card-icon {
@@ -36,7 +36,7 @@
 }
 
 #all-cards-table {
-  min-width: 500px;
+  min-width: 450px;
 }
 
 #psa-value-header {

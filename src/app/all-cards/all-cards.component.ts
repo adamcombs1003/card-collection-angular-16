@@ -165,8 +165,8 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     }
   }
 
-  rowClick(card: any) {
-    console.log(card);
+  rowClick(card: Card) {
+    console.log(card._id);
   }
 
   setTableColumns(viewWidth: number) {

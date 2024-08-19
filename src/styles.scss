@@ -15,6 +15,38 @@ body, .mat-drawer-containter {
     margin: 0;
 }
 
+$mint-palette: (
+    50: #FFEBEE,
+    100: #CDFFD2,
+    200: #9AFF9A,
+    300: #73FF73,
+    400: #53FF50,
+    500: #43FF36,
+    600: #39FF35,
+    700: #2FFF2F,
+    800: #28FF28,
+    900: #1CFF1C,
+    A100: #8AFF80,
+    A200: #52FF52,
+    A400: #1FF744,
+    A700: #0FF000, 
+    contrast: (
+        100: #000000,
+        200: #000000,
+        300: #000000,
+        400: #000000,
+        500: #000000,
+        600: #000000,
+        700: #ffffff,
+        800: #ffffff,
+        900: #ffffff,
+        A100: #000000,
+        A200: #000000,
+        A400: #000000,
+        A700: #ffffff
+    )
+);
+
 $red-palette: (
     50: #FFEBEE,
     100: #FFCDD2,
@@ -111,8 +143,8 @@ $blue-palette: (
     )
 );
 
-$color-one: mat.define-palette($blue-palette, 900);
-$color-two: mat.define-palette($blue-palette, 300);
+$color-one: mat.define-palette($blue-palette, 400);
+$color-two: mat.define-palette($blue-palette, 400);
 $color-warning: mat.define-palette($red-palette, 700);
 
 $dark-theme: mat.define-dark-theme((
@@ -120,7 +152,8 @@ $dark-theme: mat.define-dark-theme((
         primary: $color-one,
         accent: $color-two,
         warn: $color-warning
-    )
+    ),
+    density: -3
 ));
 
 $light-theme: mat.define-light-theme((
@@ -128,7 +161,8 @@ $light-theme: mat.define-light-theme((
         primary: $color-two,
         accent: $color-one,
         warn: $color-warning
-    )
+    ),
+    density: -3
 ));
 
 @include mat.all-component-themes($dark-theme);

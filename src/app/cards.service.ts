@@ -9,7 +9,7 @@ import { Card } from "./models/card";
 export class CardsHttpService {
     azureUrl = "https://cardsmongodb-1717465918038.azurewebsites.net";
     localhostUrl = "http://localhost:8080"
-    apiUrl = this.azureUrl;
+    apiUrl = this.localhostUrl;
 
     constructor(private http: HttpClient) { }
 
