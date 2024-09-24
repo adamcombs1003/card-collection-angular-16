@@ -1,0 +1,2725 @@
+
+db.card.insert({
+    "_id": "112629",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Scoring Kings",
+    "firstName": "Larry",
+    "lastName": "Johnson",
+    "cardNumber": "4",
+    "quantity": 1,
+    "psaValue": 1525
+});
+db.card.insert({
+    "_id": "601423",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Scoring Kings",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "5",
+    "quantity": 1,
+    "psaValue": 10150
+});
+db.card.insert({
+    "_id": "949068",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Scoring Kings",
+    "firstName": "Patrick",
+    "lastName": "Ewing",
+    "cardNumber": "3",
+    "quantity": 1,
+    "psaValue": 510
+});
+db.card.insert({
+    "_id": "639922",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Scoring Kings",
+    "firstName": "Charles",
+    "lastName": "Barkley",
+    "cardNumber": "1",
+    "quantity": 1,
+    "psaValue": 925
+});
+db.card.insert({
+    "_id": "329474",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Famous Nicknames",
+    "firstName": "Charles",
+    "lastName": "Barkley",
+    "cardNumber": "1",
+    "quantity": 1,
+    "psaValue": 320
+});
+db.card.insert({
+    "_id": "321300",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Famous Nicknames",
+    "firstName": "Anfernee",
+    "lastName": "Hardaway",
+    "cardNumber": "5",
+    "quantity": 1,
+    "psaValue": 341
+});
+db.card.insert({
+    "_id": "430897",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Famous Nicknames",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "7",
+    "quantity": 1,
+    "psaValue": 787
+});
+db.card.insert({
+    "_id": "502510",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Famous Nicknames",
+    "firstName": "Tony",
+    "lastName": "Kukoc",
+    "cardNumber": "8",
+    "quantity": 1,
+    "psaValue": 380
+});
+db.card.insert({
+    "_id": "879485",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Famous Nicknames",
+    "firstName": "Harold",
+    "lastName": "Miner",
+    "cardNumber": "10",
+    "quantity": 1,
+    "psaValue": 191.38
+});
+db.card.insert({
+    "_id": "657940",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Famous Nicknames",
+    "firstName": "Hakeem",
+    "lastName": "Olajuwon",
+    "cardNumber": "12",
+    "quantity": 1,
+    "psaValue": 266.85
+});
+db.card.insert({
+    "_id": "737755",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Famous Nicknames",
+    "firstName": "Dominique",
+    "lastName": "Wilkins",
+    "cardNumber": "15",
+    "quantity": 1,
+    "psaValue": 182.5
+});
+db.card.insert({
+    "_id": "200590",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Famous Nicknames",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "13",
+    "quantity": 1,
+    "psaValue": 213.5
+});
+db.card.insert({
+    "_id": "51833",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Famous Nicknames",
+    "firstName": "David",
+    "lastName": "Robinson",
+    "cardNumber": "14",
+    "quantity": 1,
+    "psaValue": 267.34
+});
+db.card.insert({
+    "_id": "290469",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Scoring Kings",
+    "firstName": "David",
+    "lastName": "Robinson",
+    "cardNumber": "9",
+    "quantity": 1,
+    "psaValue": 765
+});
+db.card.insert({
+    "_id": "983559",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Scoring Kings",
+    "firstName": "Alonzo",
+    "lastName": "Mourning",
+    "cardNumber": "7",
+    "quantity": 1,
+    "psaValue": 456
+});
+db.card.insert({
+    "_id": "266641",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Scoring Kings",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "8",
+    "quantity": 1,
+    "psaValue": 2787.89
+});
+db.card.insert({
+    "_id": "693371",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Scoring Kings",
+    "firstName": "Karl",
+    "lastName": "Malone",
+    "cardNumber": "6",
+    "quantity": 1,
+    "psaValue": 1101.76
+});
+db.card.insert({
+    "_id": "221251",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Scoring Kings",
+    "firstName": "Dominique",
+    "lastName": "Wilkens",
+    "cardNumber": "10",
+    "quantity": 1,
+    "psaValue": 239.5
+});
+db.card.insert({
+    "_id": "857211",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Scoring Kings",
+    "firstName": "Joe",
+    "lastName": "Dumars",
+    "cardNumber": "2",
+    "quantity": 1,
+    "psaValue": 382.77
+});
+db.card.insert({
+    "_id": "964081",
+    "year": "1990",
+    "sport": "Basketball",
+    "manufacturer": "Skybox",
+    "subSet": "",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "41",
+    "quantity": 5,
+    "psaValue": 152.5
+});
+db.card.insert({
+    "_id": "16622",
+    "year": "1997",
+    "sport": "Basketball",
+    "manufacturer": "Skybox",
+    "subSet": "Z-Force",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "23",
+    "quantity": 4,
+    "psaValue": 215
+});
+db.card.insert({
+    "_id": "652089",
+    "year": "1997",
+    "sport": "Basketball",
+    "manufacturer": "Skybox",
+    "subSet": "Z-Force",
+    "firstName": "Kobe",
+    "lastName": "Bryant",
+    "cardNumber": "88",
+    "quantity": 3,
+    "psaValue": 128.05
+});
+db.card.insert({
+    "_id": "998213",
+    "year": "1994",
+    "sport": "Basketball",
+    "manufacturer": "Skybox",
+    "subSet": "Slammin Universe",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "SU19",
+    "quantity": 2,
+    "psaValue": 677.53
+});
+db.card.insert({
+    "_id": "415260",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Skybox",
+    "subSet": null,
+    "firstName": "USA",
+    "lastName": "Basketball",
+    "cardNumber": "-",
+    "quantity": 1,
+    "psaValue": 321
+});
+db.card.insert({
+    "_id": "924320",
+    "year": "1997",
+    "sport": "Basketball",
+    "manufacturer": "Skybox",
+    "subSet": "Super Boss",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "10",
+    "quantity": 1,
+    "psaValue": 4550
+});
+db.card.insert({
+    "_id": "708658",
+    "year": "1997",
+    "sport": "Basketball",
+    "manufacturer": "Skybox",
+    "subSet": "Boss",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "10",
+    "quantity": 1,
+    "psaValue": 1250
+});
+db.card.insert({
+    "_id": "382079",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Hoops",
+    "subSet": "Calling Card",
+    "firstName": "Kobe",
+    "lastName": "Bryant",
+    "cardNumber": "1",
+    "quantity": 1,
+    "psaValue": 128
+});
+db.card.insert({
+    "_id": "500446",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Hoops",
+    "subSet": "Supreme Court",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "SC11",
+    "quantity": 2,
+    "psaValue": 269
+});
+db.card.insert({
+    "_id": "6548",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Hoops",
+    "subSet": "Face To Face",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "FTF1",
+    "quantity": 1,
+    "psaValue": 560
+});
+db.card.insert({
+    "_id": "638623",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Hoops",
+    "subSet": "Magic All Rookie Team",
+    "firstName": "Chris",
+    "lastName": "Webber",
+    "cardNumber": "1",
+    "quantity": 1,
+    "psaValue": 379
+});
+db.card.insert({
+    "_id": "10450",
+    "year": "1990",
+    "sport": "Basketball",
+    "manufacturer": "Hoops",
+    "subSet": null,
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "65",
+    "quantity": 4,
+    "psaValue": 296
+});
+db.card.insert({
+    "_id": "335070",
+    "year": "1989",
+    "sport": "Basketball",
+    "manufacturer": "Hoops",
+    "subSet": null,
+    "firstName": "David",
+    "lastName": "Robinson",
+    "cardNumber": "138",
+    "quantity": 1,
+    "psaValue": 304.99
+});
+db.card.insert({
+    "_id": "718957",
+    "year": "1995",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": "SP",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "JC17",
+    "quantity": 1,
+    "psaValue": 106.07
+});
+db.card.insert({
+    "_id": "851413",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": "All-Star Weekend",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "34",
+    "quantity": 1,
+    "psaValue": 745
+});
+db.card.insert({
+    "_id": "3635",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": "All-Star Weekend",
+    "firstName": "Larry",
+    "lastName": "Bird",
+    "cardNumber": "37",
+    "quantity": 1,
+    "psaValue": 180.99
+});
+db.card.insert({
+    "_id": "15260",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": "Team MVP's",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "TM5",
+    "quantity": 1,
+    "psaValue": 260
+});
+db.card.insert({
+    "_id": "963964",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": "All-Star Weekend",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "15",
+    "quantity": 1,
+    "psaValue": 442.99
+});
+db.card.insert({
+    "_id": "573275",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": "All-Division",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "AD1",
+    "quantity": 1,
+    "psaValue": 125.5
+});
+db.card.insert({
+    "_id": "844179",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": "All-Division",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "AD9",
+    "quantity": 1,
+    "psaValue": 210.5
+});
+db.card.insert({
+    "_id": "205493",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": "20000 Points",
+    "firstName": "Jordan",
+    "lastName": "Wilkins",
+    "cardNumber": "SP2",
+    "quantity": 1,
+    "psaValue": 237.5
+});
+db.card.insert({
+    "_id": "430667",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": null,
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "453",
+    "quantity": 2,
+    "psaValue": 490
+});
+db.card.insert({
+    "_id": "638917",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": "All-NBA Team",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "AN1",
+    "quantity": 1,
+    "psaValue": 3073
+});
+db.card.insert({
+    "_id": "43783",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": "Award Winner Hologram",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "AW1",
+    "quantity": 2,
+    "psaValue": 1125
+});
+db.card.insert({
+    "_id": "17941",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": "MVP Holograms",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "4",
+    "quantity": 1,
+    "psaValue": 3217
+});
+db.card.insert({
+    "_id": "172847",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Rejectors",
+    "firstName": "David",
+    "lastName": "Robinson",
+    "cardNumber": "5",
+    "quantity": 1,
+    "psaValue": 255
+});
+db.card.insert({
+    "_id": "675727",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": "Behind The Glass",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "G11",
+    "quantity": 1,
+    "psaValue": 2750
+});
+db.card.insert({
+    "_id": "197683",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Scoring Kings",
+    "firstName": "Dominique",
+    "lastName": "Wilkins",
+    "cardNumber": "10",
+    "quantity": 1,
+    "psaValue": 239.5
+});
+db.card.insert({
+    "_id": "141160",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Scoring Kings",
+    "firstName": "Joe",
+    "lastName": "Dumars",
+    "cardNumber": "2",
+    "quantity": 1,
+    "psaValue": 382.77
+});
+db.card.insert({
+    "_id": "749783",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Inside Outside",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "4",
+    "quantity": 5,
+    "psaValue": 2000
+});
+db.card.insert({
+    "_id": "93126",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "All-NBA",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "2",
+    "quantity": 1,
+    "psaValue": 684
+});
+db.card.insert({
+    "_id": "464514",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Power in the Key",
+    "firstName": "Larry",
+    "lastName": "Johnson",
+    "cardNumber": "1",
+    "quantity": 1,
+    "psaValue": 338
+});
+db.card.insert({
+    "_id": "228099",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Power in the Key",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "7",
+    "quantity": 1,
+    "psaValue": 250
+});
+db.card.insert({
+    "_id": "310469",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Power in the Key",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "2",
+    "quantity": 1,
+    "psaValue": 5200
+});
+db.card.insert({
+    "_id": "823713",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Power in the Key",
+    "firstName": "Alonzo",
+    "lastName": "Mourning",
+    "cardNumber": "5",
+    "quantity": 1,
+    "psaValue": 300
+});
+db.card.insert({
+    "_id": "571821",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Power in the Key",
+    "firstName": "Chris",
+    "lastName": "Webber",
+    "cardNumber": "9",
+    "quantity": 1,
+    "psaValue": 449
+});
+db.card.insert({
+    "_id": "179330",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Power in the Key",
+    "firstName": "Hakeem",
+    "lastName": "Olajuwon",
+    "cardNumber": "6",
+    "quantity": 1,
+    "psaValue": 300
+});
+db.card.insert({
+    "_id": "193424",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": "MVP Holograms",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "35",
+    "quantity": 1,
+    "psaValue": 1725
+});
+db.card.insert({
+    "_id": "295010",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Rejectors",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "4",
+    "quantity": 1,
+    "psaValue": 157.5
+});
+db.card.insert({
+    "_id": "298891",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "All-NBA Team",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "4",
+    "quantity": 1,
+    "psaValue": 190.5
+});
+db.card.insert({
+    "_id": "39456",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "NBA All-Rookie Team",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "5",
+    "quantity": 2,
+    "psaValue": 480
+});
+db.card.insert({
+    "_id": "564718",
+    "year": "1995",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Gold Medallion",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "25",
+    "quantity": 2,
+    "psaValue": 5655
+});
+db.card.insert({
+    "_id": "6438",
+    "year": "1995",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": null,
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "25",
+    "quantity": 1,
+    "psaValue": 672.22
+});
+db.card.insert({
+    "_id": "946450",
+    "year": "1995",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Rising Star",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "6",
+    "quantity": 1,
+    "psaValue": 174.99
+});
+db.card.insert({
+    "_id": "23731",
+    "year": "1995",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": null,
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "25",
+    "quantity": 2,
+    "psaValue": 672.22
+});
+db.card.insert({
+    "_id": "918454",
+    "year": "1995",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Double Trouble - Gold Medallion",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "3",
+    "quantity": 1,
+    "psaValue": 1125
+});
+db.card.insert({
+    "_id": "585089",
+    "year": "1995",
+    "sport": "Basketball",
+    "manufacturer": "Ultra",
+    "subSet": "Double Trouble",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "3",
+    "quantity": 1,
+    "psaValue": 300
+});
+db.card.insert({
+    "_id": "169935",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": null,
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "1",
+    "quantity": 1,
+    "psaValue": 266.3
+});
+db.card.insert({
+    "_id": "531723",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "NBA Finals",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "1",
+    "quantity": 1,
+    "psaValue": 350
+});
+db.card.insert({
+    "_id": "20558",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "NBA Finals",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "181",
+    "quantity": 1,
+    "psaValue": 173.73
+});
+db.card.insert({
+    "_id": "90781",
+    "year": null,
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "NBA Finals",
+    "firstName": "Michael",
+    "lastName": null,
+    "cardNumber": "169",
+    "quantity": 1,
+    "psaValue": 167.5
+});
+db.card.insert({
+    "_id": "522602",
+    "year": "1994",
+    "sport": "Basketball",
+    "manufacturer": "Topps",
+    "subSet": "Spectralight",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "13",
+    "quantity": 1,
+    "psaValue": 200
+});
+db.card.insert({
+    "_id": "706218",
+    "year": "1995",
+    "sport": "Basketball",
+    "manufacturer": "Finest",
+    "subSet": null,
+    "firstName": "Kevin",
+    "lastName": "Garnett",
+    "cardNumber": "115",
+    "quantity": 1,
+    "psaValue": 360
+});
+db.card.insert({
+    "_id": "71426",
+    "year": "1995",
+    "sport": "Basketball",
+    "manufacturer": "Finest",
+    "subSet": null,
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "229",
+    "quantity": 1,
+    "psaValue": 612
+});
+db.card.insert({
+    "_id": "360922",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "Shawn",
+    "lastName": "Kemp",
+    "cardNumber": "3",
+    "quantity": 1,
+    "psaValue": 350.99
+});
+db.card.insert({
+    "_id": "119931",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "Chris",
+    "lastName": "Mullin",
+    "cardNumber": "6",
+    "quantity": 1,
+    "psaValue": 157.5
+});
+db.card.insert({
+    "_id": "623057",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "Scottie",
+    "lastName": "Pippen",
+    "cardNumber": "5",
+    "quantity": 1,
+    "psaValue": 235.83
+});
+db.card.insert({
+    "_id": "222850",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "Clyde",
+    "lastName": "Drexler",
+    "cardNumber": "4",
+    "quantity": 1,
+    "psaValue": 256
+});
+db.card.insert({
+    "_id": "996388",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "Reggie",
+    "lastName": "Miller",
+    "cardNumber": "7",
+    "quantity": 1,
+    "psaValue": 217.51
+});
+db.card.insert({
+    "_id": "912676",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "Glen",
+    "lastName": "Rice",
+    "cardNumber": "8",
+    "quantity": 1,
+    "psaValue": 158.05
+});
+db.card.insert({
+    "_id": "853163",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "Jeff",
+    "lastName": "Hornacek",
+    "cardNumber": "9",
+    "quantity": 1,
+    "psaValue": 147.5
+});
+db.card.insert({
+    "_id": "254493",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "Jeff",
+    "lastName": "Malone",
+    "cardNumber": "10",
+    "quantity": 1,
+    "psaValue": 170.5
+});
+db.card.insert({
+    "_id": "958",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "John",
+    "lastName": "Stockton",
+    "cardNumber": "11",
+    "quantity": 1,
+    "psaValue": 249.16
+});
+db.card.insert({
+    "_id": "81087",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "Tim",
+    "lastName": "Hardaway",
+    "cardNumber": "14",
+    "quantity": 1,
+    "psaValue": 224.46
+});
+db.card.insert({
+    "_id": "795409",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "Charles",
+    "lastName": "Barkley",
+    "cardNumber": "15",
+    "quantity": 1,
+    "psaValue": 291
+});
+db.card.insert({
+    "_id": "249027",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "Hakeem",
+    "lastName": "Olajuwon",
+    "cardNumber": "16",
+    "quantity": 1,
+    "psaValue": 371
+});
+db.card.insert({
+    "_id": "196136",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "Karl",
+    "lastName": "Malone",
+    "cardNumber": "17",
+    "quantity": 1,
+    "psaValue": 213.5
+});
+db.card.insert({
+    "_id": "696153",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "Patrick",
+    "lastName": "Ewing",
+    "cardNumber": "18",
+    "quantity": 1,
+    "psaValue": 244.92
+});
+db.card.insert({
+    "_id": "379629",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "Dennis",
+    "lastName": "Rodman",
+    "cardNumber": "19",
+    "quantity": 1,
+    "psaValue": 393.88
+});
+db.card.insert({
+    "_id": "404611",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "David",
+    "lastName": "Robinson",
+    "cardNumber": "20",
+    "quantity": 1,
+    "psaValue": 440
+});
+db.card.insert({
+    "_id": "879991",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team",
+    "firstName": "Dominique",
+    "lastName": "Wilkins",
+    "cardNumber": "2",
+    "quantity": 1,
+    "psaValue": 318
+});
+db.card.insert({
+    "_id": "344401",
+    "year": "1991",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Larry",
+    "lastName": "Johnson",
+    "cardNumber": "255",
+    "quantity": 2,
+    "psaValue": 227.5
+});
+db.card.insert({
+    "_id": "756641",
+    "year": "1991",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "29",
+    "quantity": 1,
+    "psaValue": 224.5
+});
+db.card.insert({
+    "_id": "22434",
+    "year": "1991",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Pro Visions",
+    "firstName": null,
+    "lastName": "Jordan",
+    "cardNumber": "2",
+    "quantity": 1,
+    "psaValue": 162.5
+});
+db.card.insert({
+    "_id": "878315",
+    "year": "1990",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "All-Stars",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "5",
+    "quantity": 1,
+    "psaValue": 420.55
+});
+db.card.insert({
+    "_id": "876364",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Sticker",
+    "firstName": "Patrick",
+    "lastName": "Ewing",
+    "cardNumber": "5",
+    "quantity": 1,
+    "psaValue": 3055
+});
+db.card.insert({
+    "_id": "793231",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Sticker",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "7",
+    "quantity": 1,
+    "psaValue": 18600
+});
+db.card.insert({
+    "_id": "267043",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Sticker",
+    "firstName": "Dominique",
+    "lastName": "Wilkins",
+    "cardNumber": "11",
+    "quantity": 2,
+    "psaValue": 2927.77
+});
+db.card.insert({
+    "_id": "356899",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Sticker",
+    "firstName": "Isiah",
+    "lastName": "Thomas",
+    "cardNumber": "10",
+    "quantity": 1,
+    "psaValue": 1225
+});
+db.card.insert({
+    "_id": "662681",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Sticker",
+    "firstName": "Magic",
+    "lastName": "Johnson",
+    "cardNumber": "6",
+    "quantity": 1,
+    "psaValue": 2160
+});
+db.card.insert({
+    "_id": "77563",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Sticker",
+    "firstName": "Alex",
+    "lastName": "English",
+    "cardNumber": "4",
+    "quantity": 1,
+    "psaValue": 5100
+});
+db.card.insert({
+    "_id": "820706",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Sticker",
+    "firstName": "Kevin",
+    "lastName": "McHale",
+    "cardNumber": "9",
+    "quantity": 1,
+    "psaValue": 1176
+});
+db.card.insert({
+    "_id": "53636",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Sticker",
+    "firstName": "Clyde",
+    "lastName": "Drexler",
+    "cardNumber": "3",
+    "quantity": 1,
+    "psaValue": 1000
+});
+db.card.insert({
+    "_id": "652034",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Sticker",
+    "firstName": "Larry",
+    "lastName": "Bird",
+    "cardNumber": "2",
+    "quantity": 1,
+    "psaValue": 1500
+});
+db.card.insert({
+    "_id": "600824",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Sticker",
+    "firstName": "Mark",
+    "lastName": "Aguirre",
+    "cardNumber": "1",
+    "quantity": 1,
+    "psaValue": 500
+});
+db.card.insert({
+    "_id": "27382",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Sticker",
+    "firstName": "Karl",
+    "lastName": "Malone",
+    "cardNumber": "8",
+    "quantity": 1,
+    "psaValue": 660
+});
+db.card.insert({
+    "_id": "432060",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "All-Star",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "120",
+    "quantity": 1,
+    "psaValue": 5100
+});
+db.card.insert({
+    "_id": "1294",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "All-Star",
+    "firstName": "John",
+    "lastName": "Stockton",
+    "cardNumber": "127",
+    "quantity": 1,
+    "psaValue": 343.52
+});
+db.card.insert({
+    "_id": "216439",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "All-Star",
+    "firstName": "Charles",
+    "lastName": "Barkley",
+    "cardNumber": "129",
+    "quantity": 1,
+    "psaValue": 240.39
+});
+db.card.insert({
+    "_id": "343916",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "All-Star",
+    "firstName": "Magic",
+    "lastName": "Johnson",
+    "cardNumber": "123",
+    "quantity": 1,
+    "psaValue": 284
+});
+db.card.insert({
+    "_id": "758138",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Finest",
+    "subSet": "All-Star",
+    "firstName": "Dominique",
+    "lastName": "Wilkins",
+    "cardNumber": "125",
+    "quantity": 1,
+    "psaValue": 133.38
+});
+db.card.insert({
+    "_id": "702001",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "All-Star",
+    "firstName": "Larry",
+    "lastName": "Bird",
+    "cardNumber": "124",
+    "quantity": 1,
+    "psaValue": 190.5
+});
+db.card.insert({
+    "_id": "919200",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "All-Star",
+    "firstName": "Akeem",
+    "lastName": "Olajuwon",
+    "cardNumber": "126",
+    "quantity": 1,
+    "psaValue": 372.78
+});
+db.card.insert({
+    "_id": "906829",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "John",
+    "lastName": "Stockton",
+    "cardNumber": "115",
+    "quantity": 1,
+    "psaValue": 399
+});
+db.card.insert({
+    "_id": "255424",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Alvin",
+    "lastName": "Robertson",
+    "cardNumber": "105",
+    "quantity": 1,
+    "psaValue": 211.5
+});
+db.card.insert({
+    "_id": "714720",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Karl",
+    "lastName": "Malone",
+    "cardNumber": "114",
+    "quantity": 1,
+    "psaValue": 121.82
+});
+db.card.insert({
+    "_id": "336014",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Charles",
+    "lastName": "Barkley",
+    "cardNumber": "85",
+    "quantity": 1,
+    "psaValue": 162.5
+});
+db.card.insert({
+    "_id": "712000",
+    "year": "1998",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Magic",
+    "lastName": "Johnson",
+    "cardNumber": "67",
+    "quantity": 1,
+    "psaValue": 212.5
+});
+db.card.insert({
+    "_id": "987427",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Kareem",
+    "lastName": "Abdul Jabbar",
+    "cardNumber": "64",
+    "quantity": 1,
+    "psaValue": 215
+});
+db.card.insert({
+    "_id": "864201",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Reggie",
+    "lastName": "Miller",
+    "cardNumber": "57",
+    "quantity": 1,
+    "psaValue": 1237
+});
+db.card.insert({
+    "_id": "69678",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Akeem",
+    "lastName": "Olajuwon",
+    "cardNumber": "53",
+    "quantity": 1,
+    "psaValue": 157.5
+});
+db.card.insert({
+    "_id": "152670",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Isiah",
+    "lastName": "Thomas",
+    "cardNumber": "45",
+    "quantity": 1,
+    "psaValue": 286
+});
+db.card.insert({
+    "_id": "320950",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Dennis",
+    "lastName": "Rodman",
+    "cardNumber": "43",
+    "quantity": 1,
+    "psaValue": 1675
+});
+db.card.insert({
+    "_id": "817564",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Mark",
+    "lastName": "Price",
+    "cardNumber": "25",
+    "quantity": 1,
+    "psaValue": 289
+});
+db.card.insert({
+    "_id": "733000",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Scottie",
+    "lastName": "Pippen",
+    "cardNumber": "20",
+    "quantity": 1,
+    "psaValue": 1611
+});
+db.card.insert({
+    "_id": "357454",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "17",
+    "quantity": 1,
+    "psaValue": 2876
+});
+db.card.insert({
+    "_id": "232035",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Horace",
+    "lastName": "Grant",
+    "cardNumber": "16",
+    "quantity": 1,
+    "psaValue": 232.5
+});
+db.card.insert({
+    "_id": "896423",
+    "year": "1988",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Larry",
+    "lastName": "Bird",
+    "cardNumber": "9",
+    "quantity": 1,
+    "psaValue": 300
+});
+db.card.insert({
+    "_id": "978012",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Sharpshooter",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "3",
+    "quantity": 1,
+    "psaValue": 390
+});
+db.card.insert({
+    "_id": "287150",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Living Legends",
+    "firstName": "Charles",
+    "lastName": "Barkley",
+    "cardNumber": "1",
+    "quantity": 1,
+    "psaValue": 261.88
+});
+db.card.insert({
+    "_id": "123222",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Living Legends",
+    "firstName": "Hakeem",
+    "lastName": "Olajuwon",
+    "cardNumber": "5",
+    "quantity": 1,
+    "psaValue": 230.03
+});
+db.card.insert({
+    "_id": "691278",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Living Legends",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "4",
+    "quantity": 2,
+    "psaValue": 2823
+});
+db.card.insert({
+    "_id": "340796",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "All-Star Weekend",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "5",
+    "quantity": 1,
+    "psaValue": 761
+});
+db.card.insert({
+    "_id": "69829",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "All-Star Weekend",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "7",
+    "quantity": 1,
+    "psaValue": 213.73
+});
+db.card.insert({
+    "_id": "457221",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Rookie Sensations",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "18",
+    "quantity": 2,
+    "psaValue": 738
+});
+db.card.insert({
+    "_id": "727341",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Team Leader",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "4",
+    "quantity": 1,
+    "psaValue": 4533.33
+});
+db.card.insert({
+    "_id": "847973",
+    "year": "1996",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Stackhouse's All-Fleer",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "4",
+    "quantity": 1,
+    "psaValue": 1231
+});
+db.card.insert({
+    "_id": "982412",
+    "year": "1996",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "123",
+    "quantity": 5,
+    "psaValue": 282
+});
+db.card.insert({
+    "_id": "853734",
+    "year": "1996",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Game Breakers",
+    "firstName": "Jordan",
+    "lastName": "Pippen",
+    "cardNumber": "1",
+    "quantity": 2,
+    "psaValue": 560
+});
+db.card.insert({
+    "_id": "629895",
+    "year": "1994",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Rookie Sensations",
+    "firstName": "Anfernee",
+    "lastName": "Hardaway",
+    "cardNumber": "25",
+    "quantity": 4,
+    "psaValue": 175
+});
+db.card.insert({
+    "_id": "205485",
+    "year": "1994",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Rookie Sensations",
+    "firstName": "Chris",
+    "lastName": "Webber",
+    "cardNumber": "25",
+    "quantity": 2,
+    "psaValue": 207
+});
+db.card.insert({
+    "_id": "919488",
+    "year": "1994",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Triple Threat",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "7",
+    "quantity": 1,
+    "psaValue": 349
+});
+db.card.insert({
+    "_id": "278166",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Kareem",
+    "lastName": "Abdul Jabbar",
+    "cardNumber": "1",
+    "quantity": 1,
+    "psaValue": 4825
+});
+db.card.insert({
+    "_id": "286067",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Alvin",
+    "lastName": "Adams",
+    "cardNumber": "2",
+    "quantity": 1,
+    "psaValue": 3850
+});
+db.card.insert({
+    "_id": "960756",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Mark",
+    "lastName": "Aguirre",
+    "cardNumber": "3",
+    "quantity": 1,
+    "psaValue": 1377
+});
+db.card.insert({
+    "_id": "456225",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Danny",
+    "lastName": "Ainge",
+    "cardNumber": "4",
+    "quantity": 1,
+    "psaValue": 900
+});
+db.card.insert({
+    "_id": "941623",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Charles",
+    "lastName": "Barkley",
+    "cardNumber": "7",
+    "quantity": 1,
+    "psaValue": 6401
+});
+db.card.insert({
+    "_id": "326480",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Benoit",
+    "lastName": "Benjamin",
+    "cardNumber": "8",
+    "quantity": 1,
+    "psaValue": 989
+});
+db.card.insert({
+    "_id": "218352",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Larry",
+    "lastName": "Bird",
+    "cardNumber": "9",
+    "quantity": 1,
+    "psaValue": 6600
+});
+db.card.insert({
+    "_id": "977237",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Rolando",
+    "lastName": "Blackman",
+    "cardNumber": "11",
+    "quantity": 1,
+    "psaValue": 2902
+});
+db.card.insert({
+    "_id": "140434",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Manute",
+    "lastName": "Bol",
+    "cardNumber": "12",
+    "quantity": 1,
+    "psaValue": 1372
+});
+db.card.insert({
+    "_id": "452458",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Tom",
+    "lastName": "Chambers",
+    "cardNumber": "15",
+    "quantity": 1,
+    "psaValue": 315
+});
+db.card.insert({
+    "_id": "170444",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "",
+    "firstName": "Maurice",
+    "lastName": "Cheeks",
+    "cardNumber": "16",
+    "quantity": 1,
+    "psaValue": 415
+});
+db.card.insert({
+    "_id": "830138",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Michael",
+    "lastName": "Cooper",
+    "cardNumber": "17",
+    "quantity": 1,
+    "psaValue": 305
+});
+db.card.insert({
+    "_id": "835856",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Paul",
+    "lastName": "Pressey",
+    "cardNumber": "88",
+    "quantity": 1,
+    "psaValue": 730
+});
+db.card.insert({
+    "_id": "990940",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Byron",
+    "lastName": "Scott",
+    "cardNumber": "99",
+    "quantity": 1,
+    "psaValue": 865
+});
+db.card.insert({
+    "_id": "356549",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "1986 Fleer",
+    "lastName": "Checklist",
+    "cardNumber": "132",
+    "quantity": 1,
+    "psaValue": 3576
+});
+db.card.insert({
+    "_id": "128657",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "James",
+    "lastName": "Worthy",
+    "cardNumber": "131",
+    "quantity": 1,
+    "psaValue": 2600
+});
+db.card.insert({
+    "_id": "65699",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "",
+    "firstName": "Gerald",
+    "lastName": "Wilkins",
+    "cardNumber": "122",
+    "quantity": 1,
+    "psaValue": 1725
+});
+db.card.insert({
+    "_id": "426174",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Dominique",
+    "lastName": "Wilkins",
+    "cardNumber": "121",
+    "quantity": 1,
+    "psaValue": 8933
+});
+db.card.insert({
+    "_id": "663729",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Spud",
+    "lastName": "Webb",
+    "cardNumber": "121",
+    "quantity": 1,
+    "psaValue": 957
+});
+db.card.insert({
+    "_id": "906477",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Bill",
+    "lastName": "Walton",
+    "cardNumber": "119",
+    "quantity": 1,
+    "psaValue": 856
+});
+db.card.insert({
+    "_id": "440714",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Isiah",
+    "lastName": "Thomas",
+    "cardNumber": "109",
+    "quantity": 1,
+    "psaValue": 3200
+});
+db.card.insert({
+    "_id": "558176",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Purvis",
+    "lastName": "Short",
+    "cardNumber": "100",
+    "quantity": 1,
+    "psaValue": 1651
+});
+db.card.insert({
+    "_id": "42232",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Ralph",
+    "lastName": "Sampson",
+    "cardNumber": "97",
+    "quantity": 1,
+    "psaValue": 810
+});
+db.card.insert({
+    "_id": "354453",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Kurt",
+    "lastName": "Rambis",
+    "cardNumber": "89",
+    "quantity": 1,
+    "psaValue": 585
+});
+db.card.insert({
+    "_id": "162526",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Akeem",
+    "lastName": "Olajuwon",
+    "cardNumber": "82",
+    "quantity": 1,
+    "psaValue": 4475
+});
+db.card.insert({
+    "_id": "964620",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Larry",
+    "lastName": "Nance",
+    "cardNumber": "78",
+    "quantity": 1,
+    "psaValue": 1102
+});
+db.card.insert({
+    "_id": "765321",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Johnny",
+    "lastName": "Moore",
+    "cardNumber": "76",
+    "quantity": 1,
+    "psaValue": 15561
+});
+db.card.insert({
+    "_id": "269084",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Chris",
+    "lastName": "Mullin",
+    "cardNumber": "77",
+    "quantity": 1,
+    "psaValue": 2987
+});
+db.card.insert({
+    "_id": "174609",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Kevin",
+    "lastName": "Mchale",
+    "cardNumber": "73",
+    "quantity": 1,
+    "psaValue": 1425
+});
+db.card.insert({
+    "_id": "648269",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Karl",
+    "lastName": "Malone",
+    "cardNumber": "68",
+    "quantity": 1,
+    "psaValue": 2949
+});
+db.card.insert({
+    "_id": "37820",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Jeff",
+    "lastName": "Malone",
+    "cardNumber": "67",
+    "quantity": 1,
+    "psaValue": 17500
+});
+db.card.insert({
+    "_id": "617354",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Alton",
+    "lastName": "Lister",
+    "cardNumber": "64",
+    "quantity": 1,
+    "psaValue": 923
+});
+db.card.insert({
+    "_id": "935974",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Steve",
+    "lastName": "Johnson",
+    "cardNumber": "55",
+    "quantity": 1,
+    "psaValue": 2247
+});
+db.card.insert({
+    "_id": "749197",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Magic",
+    "lastName": "Johnson",
+    "cardNumber": "53",
+    "quantity": 1,
+    "psaValue": 2688
+});
+db.card.insert({
+    "_id": "383330",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Bill",
+    "lastName": "Hanzlik",
+    "cardNumber": "43",
+    "quantity": 1,
+    "psaValue": 569
+});
+db.card.insert({
+    "_id": "124062",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Patrick",
+    "lastName": "Ewing",
+    "cardNumber": "32",
+    "quantity": 1,
+    "psaValue": 3259
+});
+db.card.insert({
+    "_id": "113881",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Julius",
+    "lastName": "Irving",
+    "cardNumber": "31",
+    "quantity": 1,
+    "psaValue": 1625
+});
+db.card.insert({
+    "_id": "852201",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Alex",
+    "lastName": "English",
+    "cardNumber": "30",
+    "quantity": 1,
+    "psaValue": 502
+});
+db.card.insert({
+    "_id": "415626",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Joe",
+    "lastName": "Dumars",
+    "cardNumber": "27",
+    "quantity": 1,
+    "psaValue": 762
+});
+db.card.insert({
+    "_id": "524460",
+    "year": "1986",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": null,
+    "firstName": "Clyde",
+    "lastName": "Drexler",
+    "cardNumber": "26",
+    "quantity": 1,
+    "psaValue": 1106.5
+});
+db.card.insert({
+    "_id": "384227",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "Slam Dunk",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "273",
+    "quantity": 1,
+    "psaValue": 400
+});
+db.card.insert({
+    "_id": "883599",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Fleer",
+    "subSet": "All-Stars",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "6",
+    "quantity": 1,
+    "psaValue": 14666
+});
+db.card.insert({
+    "_id": "38469",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": null,
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "JK1",
+    "quantity": 1,
+    "psaValue": 2025
+});
+db.card.insert({
+    "_id": "672287",
+    "year": "1994",
+    "sport": "Basketball",
+    "manufacturer": "Upper Deck",
+    "subSet": null,
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "MJR1",
+    "quantity": 1,
+    "psaValue": 2900
+});
+db.card.insert({
+    "_id": "714919",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Topps",
+    "subSet": "Archives",
+    "firstName": "Michael",
+    "lastName": null,
+    "cardNumber": "52",
+    "quantity": 1,
+    "psaValue": 350
+});
+db.card.insert({
+    "_id": "580846",
+    "year": "1978",
+    "sport": "Basketball",
+    "manufacturer": "Topps",
+    "subSet": null,
+    "firstName": "Bernard",
+    "lastName": "King",
+    "cardNumber": "75",
+    "quantity": 1,
+    "psaValue": 3248.99
+});
+db.card.insert({
+    "_id": "434302",
+    "year": "1981",
+    "sport": "Basketball",
+    "manufacturer": "Topps",
+    "subSet": null,
+    "firstName": "Bill",
+    "lastName": "Laimbeer",
+    "cardNumber": "74",
+    "quantity": 1,
+    "psaValue": 1026.01
+});
+db.card.insert({
+    "_id": "83975",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Hoops",
+    "subSet": "Face to Face",
+    "firstName": "Jordan",
+    "lastName": "Miner",
+    "cardNumber": "FRF10",
+    "quantity": 1,
+    "psaValue": 103.5
+});
+db.card.insert({
+    "_id": "527316",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Skybox",
+    "subSet": "Premium",
+    "firstName": "Hakeem",
+    "lastName": "Olajuwon",
+    "cardNumber": "D8",
+    "quantity": 1,
+    "psaValue": 553
+});
+db.card.insert({
+    "_id": "619859",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Skybox",
+    "subSet": "Dynamic Dunks",
+    "firstName": "Charles",
+    "lastName": "Barkley",
+    "cardNumber": "D2",
+    "quantity": 1,
+    "psaValue": 385
+});
+db.card.insert({
+    "_id": "869216",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Skybox",
+    "subSet": "Thunder Lightning",
+    "firstName": "Shaquille",
+    "lastName": "Hardaway",
+    "cardNumber": "TL6",
+    "quantity": 2,
+    "psaValue": 580
+});
+db.card.insert({
+    "_id": "417635",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Skybox",
+    "subSet": "Dynamic Dunks",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "D4",
+    "quantity": 2,
+    "psaValue": 1475
+});
+db.card.insert({
+    "_id": "887200",
+    "year": "1993",
+    "sport": "Basketball",
+    "manufacturer": "Skybox",
+    "subSet": "Center Stage",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "CS2",
+    "quantity": 1,
+    "psaValue": 406
+});
+db.card.insert({
+    "_id": "628760",
+    "year": "1995",
+    "sport": "Basketball",
+    "manufacturer": "Hoops",
+    "subSet": null,
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "358",
+    "quantity": 1,
+    "psaValue": 600
+});
+db.card.insert({
+    "_id": "663635",
+    "year": "1995",
+    "sport": "Basketball",
+    "manufacturer": "Hoops",
+    "subSet": null,
+    "firstName": "Michael",
+    "lastName": null,
+    "cardNumber": "21",
+    "quantity": 1,
+    "psaValue": 192.5
+});
+db.card.insert({
+    "_id": "928934",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "cardNumber": "1",
+    "quantity": 1,
+    "psaValue": 5351
+});
+db.card.insert({
+    "_id": "776594",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Dominique",
+    "lastName": "Wilkins",
+    "cardNumber": "2",
+    "quantity": 1,
+    "psaValue": 300
+});
+db.card.insert({
+    "_id": "730300",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Shawn",
+    "lastName": "Kemp",
+    "cardNumber": "3",
+    "quantity": 1,
+    "psaValue": 455
+});
+db.card.insert({
+    "_id": "762659",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Clyde",
+    "lastName": "Drexler",
+    "cardNumber": "4",
+    "quantity": 1,
+    "psaValue": 200
+});
+db.card.insert({
+    "_id": "268097",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Scottie",
+    "lastName": "Pippen",
+    "cardNumber": "5",
+    "quantity": 1,
+    "psaValue": 470
+});
+db.card.insert({
+    "_id": "283402",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Reggie",
+    "lastName": "Miller",
+    "cardNumber": "6",
+    "quantity": 1,
+    "psaValue": 200
+});
+db.card.insert({
+    "_id": "666859",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Glen",
+    "lastName": "Rice",
+    "cardNumber": "8",
+    "quantity": 1,
+    "psaValue": 350
+});
+db.card.insert({
+    "_id": "1791",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Jeff",
+    "lastName": "Hornacek",
+    "cardNumber": "9",
+    "quantity": 1,
+    "psaValue": 300
+});
+db.card.insert({
+    "_id": "767535",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Jeff",
+    "lastName": "Malone",
+    "cardNumber": "10",
+    "quantity": 1,
+    "psaValue": 150
+});
+db.card.insert({
+    "_id": "507135",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "John",
+    "lastName": "Stockton",
+    "cardNumber": "11",
+    "quantity": 1,
+    "psaValue": 230
+});
+db.card.insert({
+    "_id": "545287",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Kevin",
+    "lastName": "Johnson",
+    "cardNumber": "12",
+    "quantity": 1,
+    "psaValue": 145
+});
+db.card.insert({
+    "_id": "282840",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Mark",
+    "lastName": "Price",
+    "cardNumber": "13",
+    "quantity": 1,
+    "psaValue": 120
+});
+db.card.insert({
+    "_id": "446086",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Tim",
+    "lastName": "Hardaway",
+    "cardNumber": "14",
+    "quantity": 1,
+    "psaValue": 325
+});
+db.card.insert({
+    "_id": "346402",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Charles",
+    "lastName": "Barkley",
+    "cardNumber": "15",
+    "quantity": 1,
+    "psaValue": 255
+});
+db.card.insert({
+    "_id": "34089",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Hakeem",
+    "lastName": "Olajuwon",
+    "cardNumber": "16",
+    "quantity": 1,
+    "psaValue": 344
+});
+db.card.insert({
+    "_id": "490755",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Karl",
+    "lastName": "Malone",
+    "cardNumber": "17",
+    "quantity": 1,
+    "psaValue": 217
+});
+db.card.insert({
+    "_id": "91793",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Patrick",
+    "lastName": "Ewing",
+    "cardNumber": "18",
+    "quantity": 1,
+    "psaValue": 200
+});
+db.card.insert({
+    "_id": "639451",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Dennis",
+    "lastName": "Rodman",
+    "cardNumber": "19",
+    "quantity": 1,
+    "psaValue": 395
+});
+db.card.insert({
+    "_id": "254663",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "David",
+    "lastName": "Robinson",
+    "cardNumber": "20",
+    "quantity": 1,
+    "psaValue": 200
+});
+db.card.insert({
+    "_id": "14069",
+    "year": "1992",
+    "sport": "Basketball",
+    "manufacturer": "Stadium Club",
+    "subSet": "Beam Team Member Only",
+    "firstName": "Shaquille",
+    "lastName": "O'Neal",
+    "cardNumber": "21",
+    "quantity": 1,
+    "psaValue": 7789
+});
+db.card.insert({
+    "_id": "626044",
+    "year": "1993",
+    "sport": "Baseball",
+    "manufacturer": "Donruss",
+    "subSet": "Diamond Kings",
+    "firstName": "Ken",
+    "lastName": "Griffey Jr.",
+    "cardNumber": "DK1",
+    "quantity": 1,
+    "psaValue": 385
+});
+db.card.insert({
+    "_id": "833589",
+    "year": "1993",
+    "sport": "Baseball",
+    "manufacturer": "Donruss",
+    "subSet": "Diamond Kings",
+    "firstName": "Ryne",
+    "lastName": "Sandberg",
+    "cardNumber": "DK2",
+    "quantity": 1,
+    "psaValue": 285
+});
+db.card.insert({
+    "_id": "223356",
+    "year": "1993",
+    "sport": "Baseball",
+    "manufacturer": "Donruss",
+    "subSet": "Diamond Kings",
+    "firstName": "Kirby",
+    "lastName": "Puckett",
+    "cardNumber": "DK4",
+    "quantity": 1,
+    "psaValue": 200
+});
+db.card.insert({
+    "_id": "104841",
+    "year": "1993",
+    "sport": "Baseball",
+    "manufacturer": "Donruss",
+    "subSet": "Diamond Kings",
+    "firstName": "Robin",
+    "lastName": "Yount",
+    "cardNumber": "DK16",
+    "quantity": 1,
+    "psaValue": 265
+});
+db.card.insert({
+    "_id": "874829",
+    "year": "1993",
+    "sport": "Baseball",
+    "manufacturer": "Donruss",
+    "subSet": "Diamond Kings",
+    "firstName": "Eddie",
+    "lastName": "Murray",
+    "cardNumber": "DK25",
+    "quantity": 1,
+    "psaValue": 265
+});
+db.card.insert({
+    "_id": "935134",
+    "year": "1992",
+    "sport": "Baseball",
+    "manufacturer": "Donruss",
+    "subSet": "Diamond Kings",
+    "firstName": "Frank",
+    "lastName": "Thomas",
+    "cardNumber": "DK8",
+    "quantity": 2,
+    "psaValue": 320
+});
+db.card.insert({
+    "_id": "966954",
+    "year": "1994",
+    "sport": "Baseball",
+    "manufacturer": "Donruss",
+    "subSet": "Diamond Kings",
+    "firstName": "Ken",
+    "lastName": "Griffey Jr.",
+    "cardNumber": "DK14",
+    "quantity": 2,
+    "psaValue": 310
+});
+db.card.insert({
+    "_id": "109981",
+    "year": "1987",
+    "sport": "Baseball",
+    "manufacturer": "Leaf",
+    "subSet": null,
+    "firstName": "Barry",
+    "lastName": "Bonds",
+    "cardNumber": "219",
+    "quantity": 2,
+    "psaValue": 3000
+});
+db.card.insert({
+    "_id": "92237",
+    "year": "1987",
+    "sport": "Baseball",
+    "manufacturer": "Leaf",
+    "subSet": null,
+    "firstName": "Cal",
+    "lastName": "Ripken",
+    "cardNumber": "98",
+    "quantity": 1,
+    "psaValue": 200
+});
+db.card.insert({
+    "_id": "606946",
+    "year": "1984",
+    "sport": "Baseball",
+    "manufacturer": "Donruss",
+    "subSet": null,
+    "firstName": "Tony",
+    "lastName": "Gwynn",
+    "cardNumber": "324",
+    "quantity": 1,
+    "psaValue": 165
+});
+db.card.insert({
+    "_id": "270591",
+    "year": "1985",
+    "sport": "Baseball",
+    "manufacturer": "Donruss",
+    "subSet": null,
+    "firstName": "Dwight",
+    "lastName": "Gooden",
+    "cardNumber": "190",
+    "quantity": 1,
+    "psaValue": 200
+}

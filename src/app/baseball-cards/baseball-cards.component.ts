@@ -18,7 +18,7 @@ import { MatSort, MatSortModule, Sort } from '@angular/material/sort';
 import { LiveAnnouncer } from '@angular/cdk/a11y';
 
 @Component({
-  selector: 'all-cards',
+  selector: 'baseball-cards',
   standalone: true,
   imports: [
     MatTableModule,
@@ -34,10 +34,10 @@ import { LiveAnnouncer } from '@angular/cdk/a11y';
     FormsModule,
     RouterLinkActive
   ],
-  templateUrl: './all-cards.component.html',
-  styleUrls: ['./all-cards.component.scss']
+  templateUrl: './baseball-cards.component.html',
+  styleUrls: ['./baseball-cards.component.scss']
 })
-export class AllCardsComponent implements OnInit, AfterViewInit {
+export class BaseballCardsComponent implements OnInit, AfterViewInit {
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
@@ -79,7 +79,7 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
   ];
 
   ngOnInit() {
-    this.getAllCards();
+    this.getBaseballCards();
   }
 
   ngAfterViewInit() {
@@ -87,9 +87,15 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     this.setTableColumns(window.innerWidth);
   }
 
-  getAllCards() {
+  getBaseballCards() {
+    let baseballCardList: Card[] = [];
     this.cardsHttpService.getAllCards().subscribe(cardList => {
-      this.cards = cardList;
+      cardList.forEach(card => {
+        if(card.sport === "Baseball") {
+          baseballCardList.push(card);
+        }
+      });
+      this.cards = baseballCardList;
       this.dataSource.data = this.cards;
       this.dataSource.sort = this.sort;
     });
@@ -109,7 +115,7 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     dialogRef.afterClosed().subscribe(choice => {
       if (choice) {
         this.cardsHttpService.deleteCard(this.removeId).subscribe({
-          complete: () => this.getAllCards()
+          complete: () => this.getBaseballCards()
         });
       }
     });
@@ -125,7 +131,7 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     });
 
     dialogRef.afterClosed().subscribe({
-      complete: () => this.getAllCards()
+      complete: () => this.getBaseballCards()
     });
   }
 
@@ -144,11 +150,11 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     }
 
     this.cardsHttpService.addCard(this.addCardRequest).subscribe({
-      complete: () => this.getAllCards(),
+      complete: () => this.getBaseballCards(),
       error: () => this.handleAddCardError()
     });
 
-    this.getAllCards();
+    this.getBaseballCards();
   }
 
   handleAddCardError(): void {
