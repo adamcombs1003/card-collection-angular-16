@@ -4,22 +4,22 @@
     <div class="form-group">
       <mat-form-field color="accent" id="first-name-field">
         <mat-label>First Name</mat-label>
-        <input matInput required [(ngModel)]="firstName" name="firstName" />
+        <input matInput required [(ngModel)]="card.firstName" name="firstName" />
       </mat-form-field>
       <mat-form-field color="accent" id="last-name-field">
         <mat-label>Last Name</mat-label>
-        <input matInput required [(ngModel)]="lastName" name="lastName" />
+        <input matInput required [(ngModel)]="card.lastName" name="lastName" />
       </mat-form-field>
     </div>
 
     <div class="form-group">
       <mat-form-field color="accent" id="year-field">
         <mat-label>Year</mat-label>
-        <input matInput required [(ngModel)]="year" name="year" maxlength="4" disabled="true"/>
+        <input matInput required [(ngModel)]="card.year" name="year" maxlength="4"/>
       </mat-form-field>
       <mat-form-field color="accent" id="sport-field">
         <mat-label>Sport</mat-label>
-        <mat-select required [(ngModel)]="sport" name="sport" disabled="true">
+        <mat-select required [(ngModel)]="card.sport" name="sport">
           <mat-option value="Baseball">Baseball</mat-option>
           <mat-option value="Basketball">Basketball</mat-option>
           <mat-option value="Football">Football</mat-option>
@@ -27,37 +27,37 @@
       </mat-form-field>
       <mat-form-field color="accent" id="card-number-field">
         <mat-label>Card #</mat-label>
-        <input matInput [(ngModel)]="cardNumber" name="cardNumber" />
+        <input matInput [(ngModel)]="card.cardNumber" name="cardNumber" />
       </mat-form-field>
     </div>
 
     <div class="form-group">
       <mat-form-field color="accent" id="manufacturer-field" >
         <mat-label>Brand</mat-label>
-        <mat-select required [(ngModel)]="manufacturer" name="manufacturer" disabled="true">
+        <mat-select required [(ngModel)]="card.manufacturer" name="manufacturer">
           <mat-option *ngFor="let mfr of manufacturers" [value]="mfr">{{ mfr }}</mat-option>
         </mat-select>
       </mat-form-field>
       <mat-form-field color="accent" id="subset-field">
         <mat-label>Sub Set</mat-label>
-        <input matInput [(ngModel)]="subSet" name="subSet" disabled="true"/>
+        <input matInput [(ngModel)]="card.subSet" name="subSet"/>
       </mat-form-field>
     </div>
 
     <div class="form-group">
       <mat-form-field color="accent" id="quantity-field">
         <mat-label>Quantity</mat-label>
-        <input matInput required type="number" [(ngModel)]="quantity" name="quantity" />
+        <input matInput required type="number" [(ngModel)]="card.quantity" name="quantity" />
       </mat-form-field>
       <mat-form-field color="accent" id="psa-value-field">
         <mat-label>PSA Value</mat-label>
-        <input matInput required [(ngModel)]="psaValue" name="psaValue" />
+        <input matInput required [(ngModel)]="card.psaValue" name="psaValue" />
       </mat-form-field>
     </div>
 
     <div id="button-container">
       <button mat-button type="submit" (click)="addCard()" id="add-card-dialog-button" color="primary">
-        Add Card
+        Submit
       </button>
       <p id="required-field" ><i>* required</i></p>
     </div>

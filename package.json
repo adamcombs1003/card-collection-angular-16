@@ -7,11 +7,14 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "docker-start": "npm run docker-build && npm run docker-run",
     "docker-restart": "npm run docker-stop && npm run docker-remove && npm run docker-build && npm run docker-run",
     "docker-build": "docker build -t card-collection:latest .",
     "docker-run": "docker run --name card-collection-front -d -p 4200:80 card-collection",
     "docker-stop": "docker stop card-collection-front",
-    "docker-remove": "docker rm card-collection-front"
+    "docker-remove": "docker rm card-collection-front",
+    "electron-start": "electron .",
+    "electron-build": "ng build && electron ."
   },
   "private": true,
   "dependencies": {
@@ -25,6 +28,7 @@
     "@angular/platform-browser": "^16.2.0",
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
+    "electron": "^34.2.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
@@ -42,5 +46,6 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.1.3"
-  }
+  },
+  "main": "main.js"
 }

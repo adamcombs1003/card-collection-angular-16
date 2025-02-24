@@ -9,4 +9,5 @@ export class Card {
     cardNumber: string | undefined;
     quantity: number | undefined;
     psaValue: number | undefined;
+
 }

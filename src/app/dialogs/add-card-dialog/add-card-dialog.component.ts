@@ -34,13 +34,22 @@ export class FormErrorStateMatcher implements ErrorStateMatcher {
   ]
 })
 export class AddCardDialog {
-  addCardRequest: Card = new Card();
+  card: Card;
+
+  constructor(
+    private cardsHttpService: CardsHttpService,
+    public dialogRef: MatDialogRef<AddCardDialog>,
+    @Inject(MAT_DIALOG_DATA) public data: AddCardDialogData,
+  ) { 
+    this.card= data.card;
+    console.log(this.card);
+  }
   
   firstName     = "";
   lastName      = "";
-  year          = "1986";
-  sport         = "Baseball";
-  manufacturer  = "Topps";
+  year          = "";
+  sport         = "";
+  manufacturer  = "";
   subSet        = "";
   psaValue      = 0;
   quantity      = 1;
@@ -72,27 +81,9 @@ export class AddCardDialog {
 
   matcher = new FormErrorStateMatcher();
 
-  constructor(
-    private cardsHttpService: CardsHttpService,
-    public dialogRef: MatDialogRef<AddCardDialog>,
-    @Inject(MAT_DIALOG_DATA) public data: AddCardDialogData,
-  ) { }
-
   addCard() {
-    var addCardRequest = {
-      _id: Math.floor(Math.random() * (1000000)).toString(),
-      firstName: this.firstName,
-      lastName: this.lastName,
-      year: this.year,
-      sport: this.sport,
-      manufacturer: this.manufacturer,
-      subSet: this.subSet,
-      cardNumber: this.cardNumber,
-      quantity: this.quantity,
-      psaValue: this.psaValue
-    }
-    this.cardsHttpService.addCard(addCardRequest).subscribe();
-    this.dialogRef.close(this.addCardRequest);
+    this.cardsHttpService.addCard(this.card).subscribe();
+    this.dialogRef.close(this.card);
   }
 
 }

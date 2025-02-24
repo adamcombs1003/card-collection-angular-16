@@ -1,7 +1,6 @@
 import { MatDialog, MatDialogConfig, MatDialogModule } from '@angular/material/dialog';
 import { AfterViewInit, Component, HostListener, OnInit, ViewChild } from '@angular/core';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
-import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
 import { CardsHttpService } from '../cards.service';
 import { MatButtonModule } from "@angular/material/button";
 import { MatIconModule } from '@angular/material/icon';
@@ -13,7 +12,6 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { FormsModule } from '@angular/forms';
-import { RouterLinkActive } from '@angular/router';
 import { MatSort, MatSortModule, Sort } from '@angular/material/sort';
 import { LiveAnnouncer } from '@angular/cdk/a11y';
 
@@ -22,7 +20,6 @@ import { LiveAnnouncer } from '@angular/cdk/a11y';
   standalone: true,
   imports: [
     MatTableModule,
-    MatPaginatorModule,
     MatIconModule,
     MatDialogModule,
     MatButtonModule,
@@ -31,15 +28,12 @@ import { LiveAnnouncer } from '@angular/cdk/a11y';
     MatInputModule,
     MatSelectModule,
     MatSortModule,
-    FormsModule,
-    RouterLinkActive
+    FormsModule
   ],
   templateUrl: './all-cards.component.html',
   styleUrls: ['./all-cards.component.scss']
 })
 export class AllCardsComponent implements OnInit, AfterViewInit {
-
-  @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   
   @HostListener('window:resize', ['$event'])
@@ -53,21 +47,10 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     private liveAnnouncer: LiveAnnouncer
   ) { }
 
-  private cards: Card[] = [];
   public dataSource = new MatTableDataSource<Card>();
-  private removeId!: string;
-  private addCardRequest!: Card;
-  private firstName: any;
-  private lastName: any;
-  private year: any;
-  private sport: any;
-  private manufacturer: any;
-  private subSet: any;
-  private psaValue: any;
-  private quantity: any;
-  private cardNumber: any;
   public displayedColumns = [
-    'name',
+    'fname',
+    'lname',
     'year',
     'sport',
     'manufacturer',
@@ -75,7 +58,7 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     'cardNumber',
     'quantity',
     'psaValue',
-    'remove'
+    'edit'
   ];
 
   ngOnInit() {
@@ -83,45 +66,29 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
-    this.dataSource.paginator = this.paginator;
     this.setTableColumns(window.innerWidth);
   }
 
   getAllCards() {
     this.cardsHttpService.getAllCards().subscribe(cardList => {
-      this.cards = cardList;
-      this.dataSource.data = this.cards;
+      this.dataSource.data = cardList;
       this.dataSource.sort = this.sort;
     });
   }
 
-  showRemoveCardDialog(id: string) {
-    this.removeId = id;
-    const dialogRef = this.dialog.open(TwoButtonDialog, {
-      data: {
-        question: "Are you sure you want to remove this card?",
-        buttonOne: "Nevermind",
-        buttonTwo: "Remove It",
-        choice: false
-      }
-    });
-
-    dialogRef.afterClosed().subscribe(choice => {
-      if (choice) {
-        this.cardsHttpService.deleteCard(this.removeId).subscribe({
-          complete: () => this.getAllCards()
-        });
-      }
-    });
+  onAddCardClick() {
+    this.showAddCardDialog(new Card)
   }
 
-  showAddCardDialog() {
+  onUpdateCardClick(card: Card) {
+    this.showAddCardDialog(card)
+  }
+
+  showAddCardDialog(card: Card) {
     const dialogConfig = new MatDialogConfig();
     dialogConfig.position = { bottom: '50px' }
     const dialogRef = this.dialog.open(AddCardDialog, {
-      data: {
-        addCardRequest: new Card()
-      }
+      data: { card }
     });
 
     dialogRef.afterClosed().subscribe({
@@ -129,26 +96,23 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     });
   }
 
-  addCard() {
-    this.addCardRequest = {
-      _id: "",
-      firstName: this.firstName,
-      lastName: this.lastName,
-      year: this.year,
-      sport: this.sport,
-      manufacturer: this.manufacturer,
-      subSet: this.subSet,
-      cardNumber: this.cardNumber,
-      quantity: this.quantity,
-      psaValue: this.psaValue
-    }
-
-    this.cardsHttpService.addCard(this.addCardRequest).subscribe({
-      complete: () => this.getAllCards(),
-      error: () => this.handleAddCardError()
+  showRemoveCardDialog(id: string) {
+    const dialogRef = this.dialog.open(TwoButtonDialog, {
+      data: {
+        question: "Are you sure you want to remove this card?",
+        buttonOne: "Nevermind",
+        buttonTwo: "Remove It!",
+        choice: false
+      }
     });
 
-    this.getAllCards();
+    dialogRef.afterClosed().subscribe(choice => {
+      if (choice) {
+        this.cardsHttpService.deleteCard(id).subscribe({
+          complete: () => this.getAllCards()
+        });
+      }
+    });
   }
 
   handleAddCardError(): void {
@@ -163,14 +127,11 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
     }
   }
 
-  rowClick(card: Card) {
-    console.log(card._id);
-  }
-
   setTableColumns(viewWidth: number) {
     if (viewWidth > 900) {
       this.displayedColumns = [
-        'name',
+        'fname',
+        'lname',
         'year',
         'sport',
         'manufacturer',
@@ -178,21 +139,23 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
         'cardNumber',
         'quantity',
         'psaValue',
-        'remove'
+        'edit'
       ]
     } else if (viewWidth <= 900 && viewWidth > 750) {
       this.displayedColumns = [
-        'name',
+        'fname',
+        'lname',
         'year',
         'manufacturer',
         'subSet',
         'quantity',
         'psaValue',
-        'remove'
+        'edit'
       ]
     } else if (viewWidth <= 750 && viewWidth > 675) {
       this.displayedColumns = [
-        'name',
+        'fname',
+        'lname',
         'year',
         'manufacturer',
         'subSet',
@@ -201,12 +164,12 @@ export class AllCardsComponent implements OnInit, AfterViewInit {
       ]
     } else if (viewWidth <= 675) {
       this.displayedColumns = [
-        'name',
+        'fname',
+        'lname',
         'year',
         'manufacturer',
         'psaValue'
       ]
     }
   }
-
 }
